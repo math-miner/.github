@@ -91,11 +91,12 @@ curl --tlsv1.2 -X POST http://ip:port/ \
 ### response
 
 `benefit_point`表示本次套利最优输入值值（也就是request中baseToken的输入值）
+
 `enefit`表示理论收益
 
 `benefit_point` represents the optimal input value for this arbitrage opportunity (i.e., the input amount of baseToken in the request).
 
-`benefit` represents the theoretical profit.”
+`benefit` represents the theoretical profit.
 
 ```json
 {
